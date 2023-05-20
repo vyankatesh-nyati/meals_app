@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:meals_app/data/dummy_data.dart';
 import 'package:meals_app/views/categories.dart';
 import 'package:meals_app/views/meals.dart';
-// import 'package:meals_app/views/home_Screen.dart';
+import 'package:meals_app/views/home_Screen.dart';
 
 final theme = ThemeData(
   useMaterial3: true,
