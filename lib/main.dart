@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:meals_app/views/categories.dart';
 import 'package:meals_app/views/tabs.dart';
 
 final theme = ThemeData(

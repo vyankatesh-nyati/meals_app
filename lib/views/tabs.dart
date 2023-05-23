@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals_app/model/meal.dart';
 import 'package:meals_app/views/categories.dart';
 import 'package:meals_app/views/meals.dart';
+import 'package:meals_app/widgets/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen({super.key});
@@ -22,7 +23,6 @@ class _TabsScreenState extends State<TabsScreen> {
     } else {
       _favoriteMeals.add(meal);
     }
-    // print(_favoriteMeals);
   }
 
   void _selectPage(int index) {
@@ -65,6 +65,7 @@ class _TabsScreenState extends State<TabsScreen> {
           ),
         ],
       ),
+      drawer: const MainDrawer(),
     );
   }
 }
