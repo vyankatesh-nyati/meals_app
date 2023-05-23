@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'Meals App',
       theme: theme,
       home: const TabsScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
